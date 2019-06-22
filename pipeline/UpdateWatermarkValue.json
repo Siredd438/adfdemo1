@@ -1,6 +1,7 @@
 {
 	"name": "UpdateWatermarkValue",
 	"properties": {
+		"description": "Watermark.",
 		"activities": [
 			{
 				"name": "LKPGetOldWatermarkValue",
