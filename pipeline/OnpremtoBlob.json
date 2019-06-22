@@ -1,6 +1,7 @@
 {
 	"name": "OnpremtoBlob",
 	"properties": {
+		"description": "Load data from on-prem to blob.",
 		"activities": [
 			{
 				"name": "Copy_qrx",
