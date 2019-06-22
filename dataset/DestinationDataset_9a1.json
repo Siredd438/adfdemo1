@@ -1,0 +1,24 @@
+{
+	"name": "DestinationDataset_9a1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobTarget",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"format": {
+				"type": "TextFormat",
+				"columnDelimiter": "|",
+				"rowDelimiter": "",
+				"nullValue": "\\N",
+				"treatEmptyAsNull": true,
+				"skipLineCount": 0,
+				"firstRowAsHeader": false
+			},
+			"fileName": "Empoutput",
+			"folderPath": "blobcontainer"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

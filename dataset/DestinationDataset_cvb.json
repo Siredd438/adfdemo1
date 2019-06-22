@@ -1,0 +1,28 @@
+{
+	"name": "DestinationDataset_cvb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDemoSQL",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "First Name",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "LastName",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[Employee]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

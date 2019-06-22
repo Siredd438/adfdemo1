@@ -1,0 +1,6 @@
+{
+	"name": "adfdemoIR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

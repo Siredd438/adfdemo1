@@ -1,0 +1,16 @@
+{
+	"name": "OnPremSQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=localhost;initial catalog=AdventureworksDW2016CTP3",
+			"userName": "fareast\\siredd",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1ZmFmNzM5OC0yMzc0LTQ0OWYtYmE1OS0zNTZmMGE5NmRiYWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "adfdemoIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

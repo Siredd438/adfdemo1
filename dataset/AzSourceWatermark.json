@@ -1,0 +1,15 @@
+{
+	"name": "AzSourceWatermark",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzSQLConnection",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "[dbo].[data_source_table]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
