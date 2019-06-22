@@ -1,6 +1,7 @@
 {
 	"name": "CopyfromBlobStore",
 	"properties": {
+		"description": "Copy from blob to blob",
 		"activities": [
 			{
 				"name": "Copy_9a1",
